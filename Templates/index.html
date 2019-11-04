@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Is it Peter's Birthday?</title>
+        <style>
+            body {
+                text-align: center;
+                display: block;
+                margin: 8px;
+            }
+            html, body {
+                font-family: Arial, sans-serif;
+                font-size: 160px;
+            }
+        </style>
+    </head>
+    <body>
+        {% if birthday %}
+            <h1>YES</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+    </body>
+</html>
